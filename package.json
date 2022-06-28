@@ -1,0 +1,20 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A weather app built on NodeJS which displays current weather condition of any city.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Adarsh Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.6",
+    "nodemon": "^2.0.15"
+  }
+}
